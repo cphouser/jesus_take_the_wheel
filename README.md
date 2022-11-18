@@ -14,7 +14,9 @@ this executable can be moved to `~/.local/bin` or another directory on your PATH
 2. run _jesus_ in another session, such as a non-graphical ssh session. 
 keyboard strokes captured in the _jesus_ session will be sent to _TheWheel_ session. 
 Backspace, Tab, Arrow Keys, Enter, and CTRL-V (as paste) are supported in additon to standard printable characters.
-Escape closes the program.NOTE: the clipboard package used, Pyperclip, doesn't support accessing the clipboard at 
+Escape closes the program.
+
+NOTE: the clipboard package used, Pyperclip, doesn't support accessing the clipboard at 
 all unless a DISPLAY variable is set. Using SSH with X-forwarding fixes this.
 
 Communication happens over a socket created and managed by _TheWheel_, so this can be left running while _jesus_
